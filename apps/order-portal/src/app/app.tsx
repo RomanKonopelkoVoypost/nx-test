@@ -1,4 +1,7 @@
 import NxWelcome from './nx-welcome';
+import { packages } from '@app/packages';
+
+console.log(packages(), 'packages');
 
 export function App() {
   return (
